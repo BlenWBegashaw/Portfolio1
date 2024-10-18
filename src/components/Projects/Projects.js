@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import chatify from "../../Assets/Projects/chatify.png";
 import anomalyDetection from "../../Assets/Projects/anomalyDetection.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
+import smartHospital from "../../Assets/Projects/smartHospital.png";
 
 function Projects() {
   return (
@@ -23,13 +25,32 @@ function Projects() {
           <ProjectCard
             imgPath={anomalyDetection}
             title="AI-Driven Anomaly Detection"
-            description="An AI-based system to detect anomalies in IoT networks for healthcare environments."
+            description="AI-based system for detecting anomalies in IoT networks."
             projectLink="/anomaly-detection"
             ghLink="https://github.com/BlenWBegashaw/anomaly-detection"
             demoLink="https://anomaly-detection-demo.com"
           />
         </Col>
-        {/* Add more project cards here */}
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={chatbot}
+            title="Salesforce AI Chatbot"
+            description="AI chatbot integrated into Salesforce for case management."
+            projectLink="/salesforce-chatbot"
+            ghLink="https://github.com/BlenWBegashaw/salesforce-chatbot"
+            demoLink="https://salesforce-chatbot-demo.com"
+          />
+        </Col>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={smartHospital}
+            title="Smart Hospital IoT Network"
+            description="IoT framework for smart hospitals with AI-driven security."
+            projectLink="/smart-hospital"
+            ghLink="https://github.com/BlenWBegashaw/smart-hospital-iot"
+            demoLink="https://smart-hospital-demo.com"
+          />
+        </Col>
       </Row>
     </Container>
   );
