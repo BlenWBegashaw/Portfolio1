@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.svg"; // Update this path with your avatar image
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am passionate about using technology to address global challenges, 
+              particularly in the fields of{" "}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">Cybersecurity, AI, and Web Development.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am proficient in programming languages like
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Python, Java, and JavaScript. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My interests include building innovative &nbsp;
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple">Web Solutions</b> and working on 
+                <b className="purple"> AI-driven Anomaly Detection Systems</b> 
+                for IoT-based healthcare.
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              I also enjoy developing projects using modern frameworks like{" "}
+              <b className="purple">React.js</b> and
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Node.js</b>
               </i>
+              &nbsp; to create seamless and impactful solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,37 +63,37 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/BlenWBegashaw" // Update with your GitHub link
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/your_twitter_handle" // Update with your Twitter handle
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/your_linkedin_profile/" // Update with your LinkedIn profile link
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/your_instagram_handle" // Update with your Instagram handle
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -112,4 +108,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
