@@ -71,16 +71,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/your_twitter_handle" // Update with your Twitter handle
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+           
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/your_linkedin_profile/" // Update with your LinkedIn profile link
@@ -90,16 +81,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/your_instagram_handle" // Update with your Instagram handle
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
+             
               </li>
             </ul>
           </Col>
